@@ -1,0 +1,691 @@
+Skill,Count
+cloud computing,82
+automation,72
+ci/cd,58
+python,54
+linux,52
+scripting,50
+networking,48
+git,48
+sql,45
+security,44
+docker,44
+java,40
+project management,40
+aws,37
+javascript,37
+kubernetes,37
+azure,34
+team leadership,33
+data analysis,31
+troubleshooting,30
+css,30
+html,30
+data modeling,23
+leadership,22
+algorithms,21
+version control,21
+software development,20
+jenkins,18
+system administration,18
+terraform,18
+data structures,17
+communication,17
+ansible,17
+ui/ux design,17
+monitoring,16
+build automation,16
+data visualization,15
+cloud platforms,15
+budgeting,15
+devops practices,14
+devops,14
+cloud security,14
+machine learning,14
+compliance,14
+system architecture,14
+data warehousing,14
+programming languages,13
+security protocols,13
+programming,12
+google cloud,12
+incident response,12
+hadoop,11
+spark,11
+maven,11
+etl,11
+rest apis,11
+deep learning,11
+.net,10
+ci/cd pipelines,10
+configuration management,10
+react,10
+technical support,10
+c++,9
+infrastructure as code,9
+user research,9
+prototyping,9
+mentoring,9
+requirements gathering,9
+data science,9
+problem solving,9
+gradle,9
+agile methodologies,9
+alerting,9
+database design,8
+3d modeling,8
+visual effects,8
+virtualization,8
+testing,8
+system monitoring,8
+risk management,8
+threat analysis,8
+log management,7
+atlassian suite,7
+node.js,7
+debugging,7
+process improvement,7
+data governance,7
+vulnerability management,7
+learning agility,7
+penetration testing,7
+c#,7
+innovation,7
+stakeholder management,7
+reporting,7
+usability testing,7
+embedded systems,7
+team management,7
+system design,6
+performance tuning,6
+etl processes,6
+objective-c,6
+web development,6
+technical expertise,6
+ruby,6
+swift,6
+test automation,6
+wireframing,6
+customer relationship management,5
+metrics,5
+pl/sql,5
+hardware/software,5
+customer service,5
+vue.js,5
+nosql,5
+windows server,5
+cloud architecture,5
+animation software,5
+angular,5
+collaboration,5
+documentation,5
+junit,5
+powershell,5
+code review,5
+software configuration management,5
+groovy,5
+sre,5
+firewalls,5
+data mining,5
+database management,5
+django,5
+tensorflow,5
+microservices,5
+mobile app development,4
+research methodologies,4
+artifactory,4
+build systems,4
+graphic design,4
+model deployment,4
+dashboards,4
+hibernate,4
+statistical analysis,4
+android sdk,4
+scientific writing,4
+kotlin,4
+mobile development,4
+deployment automation,4
+content strategy,4
+network security,4
+routing,4
+power bi,4
+ios sdk,4
+statistics,4
+machine learning algorithms,4
+network design,4
+mysql,4
+security automation,4
+networking protocols,4
+firmware development,4
+ui/ux basics,4
+php,4
+jira,4
+service mesh,4
+workflow configuration,4
+user management,4
+animation,4
+sass,3
+big data architecture,3
+ai strategy,3
+static code analysis,3
+switching,3
+pytorch,3
+containerization,3
+kafka,3
+tcp/ip,3
+adobe creative suite,3
+code coverage,3
+database development,3
+storyboarding,3
+r,3
+information architecture,3
+hardware design,3
+threat detection,3
+typescript,3
+elasticsearch,3
+branching strategies,3
+kibana,3
+gerrit,3
+traffic management,3
+devsecops,3
+html5,3
+cloud networking,3
+interaction design,3
+linux administration,3
+windows server administration,3
+cryptography,3
+.net framework,3
+css3,3
+responsive design,3
+application performance monitoring,3
+network monitoring,3
+strategic planning,3
+confluence,3
+ai/ml algorithms,3
+kanban,3
+big data technologies,3
+scrum,3
+flask,3
+it consulting,3
+software quality,3
+container orchestration,3
+it management,3
+spring framework,3
+linux/windows servers,3
+compositing,3
+implementation,3
+design patterns,3
+sql server,3
+it strategy,3
+sales,3
+asp.net,3
+splunk,3
+puppet,3
+drawing,3
+bamboo,2
+react native,2
+flutter,2
+grafana,2
+gitlab,2
+consul,2
+service discovery,2
+coverage.py,2
+quality assurance,2
+encryption,2
+openstack,2
+octopus deploy,2
+cloudformation,2
+xcode,2
+api development,2
+oracle,2
+secure coding,2
+backup and recovery,2
+datadog,2
+selenium,2
+nagios,2
+g-code,2
+new relic,2
+packer,2
+web development fundamentals,2
+cybersecurity,2
+manufacturing processes,2
+jacoco,2
+falco,2
+github,2
+fluentd,2
+data collection,2
+data processing,2
+fortify,2
+seo,2
+keyword research,2
+sharepoint,2
+software design,2
+product management,2
+natural language processing,2
+data lakes,2
+scalability,2
+account management,2
+research methods,2
+algorithm design,2
+figma,2
+application security,2
+data pipelines,2
+build tools,2
+angularjs,2
+ant,2
+unit testing,2
+xl deploy,2
+zabbix,2
+chef,2
+user experience design,2
+chef inspec,2
+game engines,2
+game design,2
+container security,2
+ai/ml frameworks,2
+excel,2
+data cleansing,2
+security auditing,2
+tableau,2
+aws services,2
+nomad,2
+logstash,2
+mapreduce,2
+ci/cd integration,2
+uml,2
+object-oriented programming,2
+infrastructure management,2
+keras,2
+j2ee,2
+ids/ips,2
+network protocols,2
+computer vision,2
+collaboration tools,2
+infrastructure automation,2
+databases,2
+system performance,2
+c/c++,2
+hardware interfaces,2
+programming basics,2
+notary,2
+basic web development,2
+spring,2
+solidity,2
+3d animation,2
+java testing,2
+2d animation,2
+ios/android sdks,2
+motion graphics,2
+oracle database,2
+linq,2
+ai/ml architecture,2
+statistical modeling,2
+smart contracts,2
+market analysis,2
+digital strategy,2
+change management,2
+business process analysis,2
+openshift,2
+training,2
+entity framework,2
+mvc,2
+web api,2
+circuit design,2
+qa processes,2
+test planning,2
+ux/ui design,2
+incident management,2
+web design,2
+ui/ux principles,2
+api design,2
+risk assessment,2
+soa,2
+bitbucket,2
+technology solutions,2
+ios,2
+istio,2
+cloud services,2
+application development,2
+system engineering,2
+sales strategy,2
+hardware management,2
+program management,2
+planning,2
+execution,2
+lan/wan,2
+software architecture,2
+vpn,2
+illustration,2
+rigging,2
+visual communication,2
+frameworks,2
+business intelligence tools,1
+simulation,1
+on-page optimization,1
+off-page optimization,1
+content marketing,1
+analytics,1
+webdriver,1
+testing frameworks,1
+jfrog cli,1
+sharepoint framework,1
+ai architecture,1
+sonarqube,1
+code quality,1
+splunk enterprise security,1
+security information and event management (siem),1
+scala,1
+security analysis,1
+t-sql,1
+ssrs,1
+ssis,1
+data integration,1
+data security,1
+itil,1
+systems design,1
+teamcity,1
+technical sales,1
+product knowledge,1
+customer engagement,1
+networking technologies,1
+wcag,1
+aria,1
+customer relationship management (crm),1
+software development lifecycle (sdlc),1
+infrastructure as code (iac),1
+tfs (team foundation server),1
+.net development tools,1
+accessibility testing,1
+udeploy (urbancode deploy),1
+deployment strategies,1
+ui design principles,1
+assistive technologies,1
+user testing,1
+ui/ux,1
+ada compliance,1
+jquery,1
+android studio,1
+firebase,1
+reactjs,1
+unity3d engine,1
+game development principles,1
+appdynamics,1
+sast,1
+user experience design principles,1
+hashicorp vault,1
+secrets management,1
+access control,1
+wordpress,1
+dast,1
+owasp,1
+monitoring tools,1
+alerting systems,1
+aws lambda,1
+web accessibility guidelines,1
+ec2,1
+big data management,1
+project management tools,1
+s3,1
+automation scripts,1
+arm templates,1
+secure coding practices,1
+repository management,1
+devops tools,1
+blockchain,1
+ethereum,1
+continuous integration,1
+software packaging,1
+cryptocurrency,1
+distributed ledger,1
+advanced ai/ml,1
+strategic vision,1
+consensus algorithms,1
+web3,1
+business analysis,1
+bpmn,1
+solution design,1
+cost optimization,1
+azure services,1
+compliance as code,1
+vpc,1
+subnets,1
+security groups,1
+blockchain technologies,1
+iam,1
+process analysis,1
+identity and access management,1
+compliance automation,1
+infrastructure testing,1
+gcp,1
+cloud automation tools,1
+virtual networks,1
+cnc machines,1
+cad/cam software,1
+cnc programming,1
+cad/cam,1
+machining,1
+blueprints,1
+systems analysis,1
+toolpath optimization,1
+maya,1
+blender,1
+python testing,1
+test coverage analysis,1
+microprocessors,1
+data modeling techniques,1
+pcb design,1
+cloud infrastructure,1
+devsecops practices,1
+orchestration,1
+elk stack,1
+validation,1
+publications,1
+system analysis,1
+er diagrams,1
+networking basics,1
+data wrangling,1
+envoy proxy,1
+load balancing,1
+kubernetes security,1
+log aggregation,1
+software frameworks,1
+back-end technologies,1
+postgresql,1
+google cloud platform,1
+taxonomy,1
+continuous security,1
+vulnerability scanning,1
+embedded c,1
+basic mobile app development,1
+rtos,1
+microcontrollers,1
+mulesoft anypoint platform,1
+api integration,1
+integration patterns,1
+communication protocols,1
+cisco/juniper devices,1
+nexus repository manager,1
+artifact management,1
+hashicorp tools,1
+envoy,1
+oracle sql,1
+framework development,1
+frameworks (laravel,1
+symfony),1
+express.js,1
+mongodb,1
+model development,1
+deployment,1
+unity,1
+vr development,1
+product roadmap,1
+system reliability,1
+restful services,1
+automation tools,1
+business acumen,1
+migration tools,1
+system migration,1
+data quality tools,1
+data profiling,1
+unreal engine,1
+technology consulting,1
+business process improvement,1
+github actions,1
+e-commerce platforms,1
+payment gateways,1
+erp systems,1
+gitlab ci,1
+it infrastructure,1
+dependency management,1
+gis software,1
+spatial analysis,1
+cartography,1
+mulesoft,1
+anypoint platform,1
+iam systems,1
+authentication,1
+authorization,1
+iot platforms,1
+sensor technology,1
+it auditing,1
+integration,1
+cisco,1
+linux servers,1
+mainframe systems,1
+cobol,1
+jcl,1
+vsam,1
+microsoft dynamics,1
+crm,1
+development,1
+mobile security,1
+nlp algorithms,1
+text analysis,1
+security audits,1
+ethical hacking,1
+vulnerability assessment,1
+nexus,1
+artifact repository,1
+release management,1
+coordination,1
+sap modules,1
+customization,1
+trust management,1
+oracle sql developer,1
+server-side programming,1
+laravel,1
+restful apis,1
+web technologies,1
+performance optimization,1
+web content management,1
+content creation,1
+cms,1
+multimedia design,1
+video production,1
+audio production,1
+web analytics tools,1
+symfony,1
+a/b testing,1
+search engine optimization,1
+content optimization,1
+link building,1
+seo strategy,1
+performance monitoring,1
+internet technologies,1
+web frameworks (django,1
+flask),1
+dax,1
+business intelligence,1
+neural networks,1
+digital forensics,1
+data recovery,1
+legal compliance,1
+security management,1
+active directory,1
+product strategy,1
+security solutions,1
+security leadership,1
+security tools,1
+security policies,1
+roadmap planning,1
+firewall management,1
+intrusion detection,1
+performance analysis,1
+network operations,1
+network reliability,1
+networking hardware,1
+cabling,1
+it analysis,1
+prometheus,1
+pytest,1
+automation testing,1
+testng,1
+intelligence gathering,1
+agile testing,1
+performance testing,1
+redux,1
+platform engineering,1
+test execution,1
+ui design,1
+robotics,1
+sales leadership,1
+administrative support,1
+it support,1
+knowledge management,1
+ros,1
+inventory management,1
+analysis,1
+implementation management,1
+business systems,1
+net development,1
+systems integration,1
+control systems,1
+integration management,1
+php development,1
+it program management,1
+unix administration,1
+technology adoption,1
+sensors,1
+actuators,1
+portfolio management,1
+investment management,1
+financial analysis,1
+technology strategy,1
+research and development,1
+technical operations,1
+information management,1
+systems administration,1
+data management,1
+client management,1
+ruby on rails,1
+research management,1
+salesforce,1
+application design,1
+team facilitation,1
+content management,1
+2d/3d animation,1
+apex,1
+visualforce,1
+modeling,1
+texturing,1
+lightning,1
+character design,1
+soql,1
+film/animation,1
+salesforce administration,1
+technical leadership,1
+character setup,1
+technical animation,1
+art direction,1
+visual design,1
+animation direction,1
+storytelling,1
+visual effects supervision,1
+forensic animation,1
+legal expertise,1
+color correction,1
+image manipulation,1
+layout,1
+cinematography,1
+visual storytelling,1
+security consulting,1
