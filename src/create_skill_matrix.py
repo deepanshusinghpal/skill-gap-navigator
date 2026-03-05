@@ -1,43 +1,25 @@
 import pandas as pd
 
-# Load cleaned dataset
+# Load datasets
 df = pd.read_csv("data/cleaned_jobs_dataset.csv")
-
-# Load top skills
 top_skills_df = pd.read_csv("data/top_skills.csv")
-
 top_skills = top_skills_df['Skill'].tolist()
 
-# Create matrix
-job_skill_matrix = []
+# Create a dictionary to hold the matrix data for faster processing
+matrix_data = {'Job Title': df['Job Title']}
 
-for index, row in df.iterrows():
+# Use vectorized operations to build the matrix efficiently
+for skill in top_skills:
+    # Check if the skill exists in the comma-separated string for each row
+    matrix_data[skill] = df['Skills'].apply(
+        lambda x: 1 if skill in [s.strip() for s in str(x).split(",")] else 0
+    )
 
-    job = row['Job Title']
-    skills = row['Skills']
-
-    skill_list = [skill.strip() for skill in skills.split(",")]
-
-    skill_vector = []
-
-    for skill in top_skills:
-
-        if skill in skill_list:
-            skill_vector.append(1)
-        else:
-            skill_vector.append(0)
-
-    job_skill_matrix.append([job] + skill_vector)
-
-# Create dataframe
-columns = ["Job Title"] + top_skills
-
-matrix_df = pd.DataFrame(job_skill_matrix, columns=columns)
+matrix_df = pd.DataFrame(matrix_data)
 
 print("\nJob Skill Matrix Preview:")
 print(matrix_df.head())
 
 # Save matrix
 matrix_df.to_csv("data/job_skill_matrix.csv", index=False)
-
 print("\nJob Skill Matrix saved successfully!")
