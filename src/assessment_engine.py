@@ -1,5 +1,6 @@
-import google.generativeai as genai
+from google import genai
 import json
+import re
 
 def generate_assessment(skills, api_key):
     """Uses Gemini to generate dynamic MCQs for the extracted skills."""
@@ -7,9 +8,8 @@ def generate_assessment(skills, api_key):
         print("Error: No API key provided.")
         return []
 
-    genai.configure(api_key=api_key)
-    model = genai.GenerativeModel('gemini-2.5-flash') 
-    
+    client = genai.Client(api_key=api_key)
+
     prompt = f"""
     You are a technical interviewer. Generate exactly 1 multiple choice question for each of the following technical skills: {skills}.
     Output strictly as a JSON array of objects with these exact keys:
@@ -19,37 +19,49 @@ def generate_assessment(skills, api_key):
     "correct_answer": just the single letter 'A', 'B', 'C', or 'D' representing the correct option.
     Do not include any markdown formatting like ```json in your response, just the raw JSON array.
     """
-    
+
     try:
-        response = model.generate_content(prompt)
-        raw_text = response.text.replace("```json", "").replace("```", "").strip()
-        quiz = json.loads(raw_text)
-        return quiz
+        response = client.models.generate_content(
+            model='gemini-2.5-pro-preview-03-25',
+            contents=prompt
+        )
+        raw_text = response.text
+
+        # Robust JSON extraction
+        match = re.search(r'\[.*\]', raw_text, re.DOTALL)
+        if match:
+            clean_json = match.group(0)
+            quiz = json.loads(clean_json)
+            return quiz
+        else:
+            print("Failed to find valid JSON array in AI response.")
+            return []
+
     except Exception as e:
         print(f"Failed to generate quiz from LLM: {e}")
+        import traceback
+        traceback.print_exc()
         return []
 
+
 def grade_assessment(user_answers, assessment):
-    """
-    Compares the user's selected radio button to the LLM's correct answers.
-    """
+    """Compares the user's selected radio button to the LLM's correct answers."""
     skill_scores = {}
-    
+
     for i, item in enumerate(assessment):
         skill = item["skill"].lower()
         correct_ans = str(item["correct_answer"]).strip().upper()
-        
-        # Grab the first letter of the chosen radio button (e.g., "A) Option" -> "A")
+
         if i < len(user_answers) and user_answers[i] is not None:
             user_ans = str(user_answers[i]).strip().upper()[0]
         else:
             user_ans = "NO_ANSWER"
-        
+
         if skill not in skill_scores:
             skill_scores[skill] = {"correct": 0, "total": 0}
-            
+
         skill_scores[skill]["total"] += 1
-        
+
         if user_ans == correct_ans:
             skill_scores[skill]["correct"] += 1
 
@@ -60,5 +72,5 @@ def grade_assessment(user_answers, assessment):
             verified_ratings[skill] = round(percentage * 5)
         else:
             verified_ratings[skill] = 0
-            
+
     return verified_ratings

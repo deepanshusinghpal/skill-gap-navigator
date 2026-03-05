@@ -1,6 +1,7 @@
 import pandas as pd
 import PyPDF2
 import re
+import os
 
 def extract_text_from_pdf(pdf_path):
     """Reads a PDF file and extracts all text."""
@@ -16,7 +17,10 @@ def extract_text_from_pdf(pdf_path):
         print(f"Error reading PDF: {e}")
         return ""
 
-def extract_skills_from_text(text, skills_csv_path="data/top_skills.csv"):
+def extract_skills_from_text(text, skills_csv_path=None):
+    if skills_csv_path is None:
+        BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+        skills_csv_path = os.path.join(BASE_DIR, '..', 'data', 'top_skills.csv')
     """Scans the text for skills listed in our top_skills database."""
     try:
         # Load our master list of skills
@@ -42,9 +46,8 @@ def extract_skills_from_text(text, skills_csv_path="data/top_skills.csv"):
 # --- Testing the script ---
 if __name__ == "__main__":
     print("Testing Resume Parser...")
-    
-    # You will need to put a sample PDF in your project folder to test this!
-    test_pdf_path = "sample_resume.pdf" 
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    test_pdf_path = os.path.join(BASE_DIR, '..', 'Sample_Resume.pdf') 
     
     print(f"Reading {test_pdf_path}...")
     resume_text = extract_text_from_pdf(test_pdf_path)
