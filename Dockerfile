@@ -1,22 +1,21 @@
+# Use a light version of Python
 FROM python:3.10-slim
 
+# Set the folder inside the container
 WORKDIR /app
 
-# Install system dependencies required for psycopg2 (database) and PDF generation
-RUN apt-get update && apt-get install -y \
-    gcc \
-    libpq-dev \
-    && rm -rf /var/lib/apt/lists/*
+# Install system dependencies for Postgres (psycopg2)
+RUN apt-get update && apt-get install -y libpq-dev gcc && rm -rf /var/lib/apt/lists/*
 
-# Copy requirements and install them
+# Copy your requirements first (better for speed)
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the rest of your application code
+# Copy everything else
 COPY . .
 
-# Expose the port Gradio runs on
-EXPOSE 7860
+# Tell Render which port we are using
+EXPOSE 10000
 
-# Command to run the application
+# Start the application
 CMD ["python", "app.py"]

@@ -1310,10 +1310,11 @@ with gr.Blocks() as app:
 app.queue(max_size=5)
 
 if __name__ == "__main__":
+    # Get the port from Render (defaults to 7860 if not found)
+    port = int(os.environ.get("PORT", 7860))
+    
     app.launch(
-    theme=professional_theme,
-    css=custom_css,
-    show_error=True,
-    show_api=False,
-    allowed_paths=[os.path.join(BASE_DIR, '..', 'data')]
+        server_name="0.0.0.0", 
+        server_port=port,
+        share=False
     )
