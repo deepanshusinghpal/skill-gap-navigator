@@ -1,107 +1,146 @@
----
-title: Skill Gap Navigator
-emoji: 🚀
-colorFrom: green
-colorTo: blue
-sdk: gradio
-sdk_version: "4.44.1"
-python_version: "3.10"
-app_file: app.py
-pinned: false
----
-
+<!-- ANIMATED HEADER -->
 <div align="center">
 
-<br/>
+[![Header](https://capsule-render.vercel.app/api?type=waving&color=0:059669,25:10b981,55:3b82f6,80:6366f1,100:8b5cf6&height=280&section=header&text=Skill%20Gap%20Navigator&fontSize=58&fontColor=ffffff&fontAlignY=42&desc=🤖%20AI-Powered%20Career%20Intelligence%20Platform&descAlignY=60&descSize=19&animation=twinkling&stroke=ffffff&strokeWidth=2)](https://skill-gap-navigator.onrender.com)
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=13&duration=3000&pause=1000&color=10B981&center=true&vCenter=true&width=500&lines=Powered+by+KNN+%2B+Linear+Regression;Groq+LLaMA+3.3+%7C+70B+Parameters;493+Job+Roles+%C3%97+80+Skills+Matrix" alt="Typing SVG" />
-
-<h1>🚀 Skill Gap Recommendation Engine</h1>
-
-<p><em>An end-to-end ML career intelligence platform that reads your resume,<br/>verifies your skills, and builds your personalized roadmap to a tech job.</em></p>
-
-<br/>
-
-![Python](https://img.shields.io/badge/Python_3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Gradio](https://img.shields.io/badge/Gradio-FF7C00?style=for-the-badge&logo=gradio&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq_AI-00C853?style=for-the-badge&logoColor=white)
+<!-- ANIMATED TYPING -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=16&duration=1800&pause=600&color=10B981&center=true&vCenter=true&multiline=false&width=680&lines=📄+Resume+%E2%86%92+🧠+AI+Quiz+%E2%86%92+🤖+KNN+Match+%E2%86%92+📈+Forecast+%E2%86%92+🗺️+Roadmap;⚡+493+Real+Tech+Roles+×+80+Skills+Matrix;🧬+690+Skill+Demand+Forecasts+via+Linear+Regression;🎯+Powered+by+Groq+LLaMA+3.3+—+70B+Parameters;🗄️+PostgreSQL+%7C+ReportLab+PDF+%7C+Gradio+4.44.1" alt="Typing SVG" />
 
 <br/><br/>
 
+<!-- LIVE DEMO BUTTON — HTML styled -->
+<a href="https://skill-gap-navigator.onrender.com" target="_blank">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:059669,100:3b82f6&height=50&text=⚡%20Launch%20Live%20Demo%20→&fontColor=ffffff&fontSize=20&fontAlignY=65&animation=twinkling&desc=skill-gap-navigator.onrender.com&descSize=11&descAlignY=90&descColor=d1fae5" width="420" alt="Live Demo"/>
+</a>
+
+<br/>
+
+<!-- SLIM BADGE ROW -->
+<p>
+  <a href="https://www.linkedin.com/in/deepanshu-singh-pal/"><img src="https://img.shields.io/badge/LinkedIn-Deepanshu-0077B5?style=flat-square&logo=linkedin&logoColor=white"/></a>
+  &nbsp;
+  <a href="https://deepanshusinghpal.github.io/"><img src="https://img.shields.io/badge/🌐%20Portfolio-deepanshusinghpal.github.io-10b981?style=flat-square&logoColor=white"/></a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/LLM-Groq%20LLaMA%203.3%2070B-00C853?style=flat-square"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/DB-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Deploy-Render-46E3B7?style=flat-square&logo=render&logoColor=black"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/License-MIT-f59e0b?style=flat-square"/>
+</p>
+
+<!-- STATS ROW -->
+<p>
+  <img src="https://img.shields.io/badge/Job%20Roles-493-8b5cf6?style=flat-square"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Skills%20Tracked-690-3b82f6?style=flat-square"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/ML%20Models-2-f59e0b?style=flat-square"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Quiz%20Questions-20--25%20per%20session-10b981?style=flat-square"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Regressions-690%20models-ef4444?style=flat-square"/>
+</p>
+
 </div>
 
 ---
 
-<br/>
+<!-- ANIMATED DIVIDER -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 ## 🎯 The Problem
 
-> Most tech students and professionals know *some* skills — but they don't know **which skills matter**, **how they compare to job requirements**, or **what to learn next**.
+> **Most tech professionals are stuck — not because they lack potential, but because they lack direction.**
 
-This leaves thousands of qualified people stuck — not because they lack potential, but because they lack direction.
+They don't know **which skills employers actually need**, how their profile compares to real job requirements, or **what to learn next**. This project solves that with a full ML pipeline: parse your resume → verify skills with AI → match to real jobs → forecast market demand → get a week-by-week roadmap.
 
-<br/>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 ---
 
-<br/>
-
-## 💡 The Solution
+## 💡 5-Step Intelligent Pipeline
 
 <div align="center">
 
 ```
-Resume  ──►  AI Quiz  ──►  ML Matching  ──►  Forecast  ──►  Roadmap
-  PDF           Groq           KNN          Regression     Week-by-week
-               LLaMA          Model           Model          Plan + PDF
+  📄 PDF           🧠 AI Quiz        🤖 KNN Match       📈 Regression       🗺️ Roadmap
+  ──────           ──────────        ────────────       ─────────────       ─────────
+ Resume PDF   →   Groq LLaMA   →   493 Job Roles   →   690 Skill      →   Week-by-week
+ PyPDF2 +          3.3 (70B)        cosine KNN          Forecasts           plan +
+ Regex NLP         20–25 MCQs       Top-3 match         Rising /            free resources
+ 80 skills         per skill        + gap list           Stable /            + PDF report
+                                                         Declining
 ```
 
 </div>
 
-The **Skill Gap Recommendation Engine** is a 5-step intelligent pipeline:
-
-| Step | What Happens | Technology |
-|------|-------------|------------|
-| 📄 **Parse** | Resume PDF is read and 80+ skills are automatically detected | PyPDF2 + Regex NLP |
-| 🧠 **Verify** | AI generates a personalized quiz to confirm what you actually know | Groq LLaMA 3.3 (70B) |
-| 🤖 **Match** | Your skill scores are matched to 493 real job roles | KNN — scikit-learn |
-| 📈 **Forecast** | Market demand for each skill is predicted for next quarter | Linear Regression |
-| 🗺️ **Guide** | A week-by-week learning plan is built from your skill gaps | Custom engine |
-
-<br/>
+| # | Step | Module | Tech |
+|---|------|--------|------|
+| 1 | **Parse** PDF → extract 80+ skills via regex `\b` word-boundary matching | `resume_parser.py` | PyPDF2 + `re` |
+| 2 | **Verify** skills via 20–25 AI-generated MCQs, graded to score 0–5 per skill | `assessment_engine.py` | Groq LLaMA 3.3 (70B) |
+| 3 | **Match** your skill vector to 493 job roles using cosine KNN | `ml_engine.py` → `KNNJobMatcher` | scikit-learn |
+| 4 | **Forecast** demand for every skill via 690 Linear Regression models | `ml_engine.py` → `SkillDemandForecaster` | scikit-learn |
+| 5 | **Guide** with week-by-week learning path built from your KNN gap skills | `gradio_app.py` | Custom engine |
 
 ---
 
-<br/>
+## 🤖 Machine Learning Core
 
-## 🤖 The Machine Learning Core
-
-This is not just a web app — two real ML models sit at the heart of every recommendation.
-
-<br/>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 ### `Model 1` — KNN Job Matcher
 
 <div align="center">
 
 ```
-Your Skills                 80-Dimensional               Top 3 Job Matches
-─────────────               Skill Space                  ─────────────────
-Python  = 4  ──────►                                ──►  🥇 NLP Engineer     77%
-SQL     = 3  ──────►   NearestNeighbors(k=10,  ──►  🥈 AI Researcher     54%
-Docker  = 2  ──────►   metric='cosine')         ──►  🥉 Data Scientist    52%
-AWS     = 3  ──────►                                     + gap skills listed
+  Your Skill Vector (80-dim)        NearestNeighbors              Top 3 Results
+  ──────────────────────────        ────────────────              ─────────────
+  python           = 4  ─────►                         ─────►  🥇 NLP Engineer     77%
+  machine learning = 4  ─────►   metric    = cosine    ─────►  🥈 AI Researcher    54%
+  sql              = 3  ─────►   k         = 10         ─────►  🥉 Data Scientist   52%
+  aws              = 3  ─────►   algorithm = brute
+                                  493 job vectors           + ✅ shared  ·  ❌ gap skills
 ```
 
 </div>
 
-**What it does:** Converts your skill scores into a vector of 80 numbers and finds the 3 closest job vectors in a database of 493 real tech roles.
+**Why cosine?** Measures the *angle* between vectors, not magnitude — so `python = 4` still aligns with a job requiring `python = 1`. Far better than Euclidean for skill matching.
 
-**Why cosine similarity?** It measures the *angle* between vectors — not the distance. So if a job requires Python:1 and you have Python:4, it still recognizes you're both pointing in the same direction. This makes it far better than Euclidean distance for skill matching.
+**Full explainability:** Every result shows `shared_skills` (score ≥ 3 AND job requires it) and `gap_skills` (score < 3 AND job requires it). No black box.
 
-**Why KNN over plain similarity search?** KNN uses an optimized index, returns calibrated confidence scores, and lets us tune `k` for breadth of retrieval — while also providing explainability (which skills matched, which are gaps).
+<details>
+<summary>📄 <b>View KNNJobMatcher — core logic</b></summary>
+
+```python
+class KNNJobMatcher:
+    def __init__(self, n_neighbors=10):
+        self.model = NearestNeighbors(
+            n_neighbors=n_neighbors, metric='cosine', algorithm='brute'
+        )
+
+    def predict(self, user_scores: dict, top_n: int = 3):
+        # Build 80-dim float vector aligned to training skill columns
+        user_vec = np.array([user_scores.get(s, 0) for s in self.skill_cols],
+                            dtype=float).reshape(1, -1)
+        distances, indices = self.model.kneighbors(user_vec, n_neighbors=top_n)
+
+        results = []
+        for rank, (dist, idx) in enumerate(zip(distances[0], indices[0])):
+            confidence = round((1 - dist) * 100, 1)   # cosine distance → similarity %
+            shared = [s for i, s in enumerate(self.skill_cols)
+                      if self.X[idx][i] == 1 and user_scores.get(s, 0) >= 3]
+            gap    = [s for i, s in enumerate(self.skill_cols)
+                      if self.X[idx][i] == 1 and user_scores.get(s, 0) < 3]
+            results.append({'job': self.job_titles[idx], 'confidence': confidence,
+                            'shared': shared[:6], 'missing': gap[:6]})
+        return results
+```
+
+</details>
 
 <br/>
 
@@ -110,215 +149,244 @@ AWS     = 3  ──────►                                     + gap ski
 <div align="center">
 
 ```
-690 Skills                  Linear Regression             Forecast Labels
-──────────                  ─────────────────             ───────────────
-Cloud Computing  (82)  ──►  slope = +4.69  ──►  📈 Rising   (+5.7%)
-Python           (54)  ──►  slope = +2.89  ──►  📈 Rising   (+1.2%)
-SQL              (45)  ──►  slope = +0.12  ──►  ➡️ Stable   (+0.3%)
-Blockchain        (3)  ──►  slope = +0.08  ──►  ➡️ Stable   (+0.2%)
+  Skill (count)              Simulate 8 Quarters            LinearRegression        Label
+  ─────────────              ───────────────────            ────────────────        ─────
+  Cloud Comp.  (82)  ──►  [45,51,57,63,68,72,77,82]  ──►  slope = +4.69  ──►  📈 Rising
+  Python       (54)  ──►  [29,32,36,40,44,47,51,54]  ──►  slope = +2.89  ──►  📈 Rising
+  SQL          (45)  ──►  [38,39,41,42,43,44,44,45]  ──►  slope = +0.12  ──►  ➡️ Stable
+  Blockchain    (3)  ──►  [2,2,2,2,3,3,3,3]          ──►  slope = +0.08  ──►  ➡️ Stable
 ```
 
 </div>
 
-**What it does:** Trains one `LinearRegression` model per skill (690 models total) on 8 quarterly data points. The slope coefficient tells you whether market demand is growing or falling.
+**690 independent models**, one per skill. A single snapshot count is back-simulated into 8 quarterly data points (3–12% growth + 3% noise). LinearRegression is fitted — the slope classifies the skill: `> +0.25` = Rising · `< -0.25` = Declining · else Stable.
 
-**Why Linear Regression?** The slope is directly interpretable — positive means rising demand, negative means falling. The R² score shows how well the trend fits. Simple, fast, and fully explainable.
+<details>
+<summary>📄 <b>View SkillDemandForecaster — core logic</b></summary>
 
-**Output:** Every skill is labeled **Rising**, **Stable**, or **Declining** with a growth % forecast so users know which skills to prioritize.
+```python
+class SkillDemandForecaster:
+    def fit(self, freq_df: pd.DataFrame, random_seed: int = 42):
+        np.random.seed(random_seed)
+        quarters = np.arange(self.n_quarters)
+
+        for _, row in freq_df.iterrows():
+            skill, count = row['Skill'].lower().strip(), row['Count']
+
+            # Back-simulate 8 quarters from single snapshot
+            growth = np.random.uniform(0.03, 0.12)
+            hist   = [max(1, round(count * ((1 - growth) ** (7 - t))
+                     + np.random.normal(0, count * 0.03))) for t in quarters]
+
+            reg        = LinearRegression().fit(quarters.reshape(-1, 1), hist)
+            slope      = float(reg.coef_[0])
+            forecast   = max(1.0, float(reg.predict([[self.n_quarters]])[0]))
+            growth_pct = round(((forecast - count) / max(count, 1)) * 100, 1)
+            trend      = "Rising" if slope > 0.25 else "Declining" if slope < -0.25 else "Stable"
+
+            self.forecasts[skill] = {
+                'slope': round(slope, 3), 'growth_pct': growth_pct, 'trend': trend
+            }
+```
+
+</details>
 
 <br/>
+
+### ⚡ Model Benchmarks
+
+<div align="center">
+
+| | 🤖 KNN Job Matcher | 📈 Skill Demand Forecaster |
+|--|-------------------|---------------------------|
+| **Algorithm** | NearestNeighbors · cosine · brute | LinearRegression × 690 |
+| **Trained on** | 493 jobs × 80 skills binary matrix | 690 skills × 8 simulated quarters |
+| **Input** | 80-dim float skill score vector | Skill name lookup |
+| **Output** | Top-3 jobs + confidence % + gap list | Trend + growth % + slope |
+| **Train time** | ~0.5s | ~3s |
+| **Cached to** | `models/knn_model.pkl` | `models/regression_forecasts.pkl` |
+| **Cold start** | ✅ Auto-train + cache on first run | ✅ Auto-train + cache on first run |
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 ---
 
-<br/>
-
-## 🗂️ Project Architecture
+## 🗂️ Project Structure
 
 ```
-skill-gap-recommendation-engine/
+skill-gap-navigator/
 │
 ├── 📁 src/
-│   ├── 🖥️  gradio_app.py           → Main app — 5 tabs, all UI logic
-│   ├── 🤖  ml_engine.py            → KNN + Linear Regression models
-│   ├── 📝  assessment_engine.py    → Groq AI quiz generator
-│   ├── 📄  resume_parser.py        → PDF reader + skill extractor
-│   ├── 🗄️  database.py             → PostgreSQL — users, scores, history
-│   └── 📊  report_generator.py     → PDF career report (ReportLab)
+│   ├── 🖥️  gradio_app.py         →  5-tab UI · process_and_quiz() · grade_and_match()
+│   ├── 🤖  ml_engine.py          →  KNNJobMatcher · SkillDemandForecaster · HTML builders
+│   ├── 📝  assessment_engine.py  →  Groq MCQ generator · grade_assessment() → score 0–5
+│   ├── 📄  resume_parser.py      →  PyPDF2 extractor · regex \b skill scanner
+│   ├── 🗄️  database.py           →  PostgreSQL · save_verified_skills · get_user_dashboard
+│   ├── 📊  report_generator.py   →  ReportLab downloadable PDF career report
+│   └── 📁  models/
+│       ├── knn_model.pkl                  ← auto-generated on first run
+│       └── regression_forecasts.pkl       ← auto-generated on first run
 │
 ├── 📁 data/
-│   ├── job_skill_matrix.csv        → 493 jobs × 80 skills (binary)
-│   ├── skill_frequency.csv         → 690 skills × demand count
-│   └── IT_Job_Roles_Skills.csv     → Job descriptions + certifications
+│   ├── job_skill_matrix.csv       →  493 roles × 80 skills (binary)
+│   ├── skill_frequency.csv        →  690 skills × demand count  (max = 82)
+│   ├── IT_Job_Roles_Skills.csv    →  job descriptions + certifications
+│   └── top_skills.csv             →  80-skill master vocabulary for regex parsing
 │
-├── 📁 models/
-│   ├── knn_model.pkl               → Trained KNN (auto-saved on first run)
-│   └── regression_forecasts.pkl    → 690 regression models (auto-saved)
-│
-└── .env                            → API keys (never committed to Git)
+├── Sample_Resume.pdf              →  test resume for standalone parser
+├── .env                           ←  API keys (never commit)
+└── requirements.txt
 ```
-
-<br/>
-
-**How data flows through the system:**
-
-```
-User uploads PDF
-      │
-      ▼
-PyPDF2 extracts text
-      │
-      ▼
-Regex scans for 80 known skills  ◄── top_skills.csv (vocabulary)
-      │
-      ▼
-Groq LLaMA generates quiz questions per skill
-      │
-      ▼
-User answers quiz → skill scores [0–5] per skill
-      │
-      ├──► KNN model  ──► Top 3 job matches + confidence % + gap skills
-      │         ▲
-      │    job_skill_matrix.csv (493 jobs × 80 skills)
-      │
-      ├──► Regression model  ──► Rising / Stable forecast per skill
-      │         ▲
-      │    skill_frequency.csv (690 skills × demand count)
-      │
-      ├──► Learning path engine  ──► Week-by-week plan + free resources
-      │
-      ├──► ReportLab  ──► Downloadable PDF career report
-      │
-      └──► PostgreSQL  ──► Saved to user history dashboard
-```
-
-<br/>
 
 ---
 
-<br/>
+## ✨ App Features
 
-## ✨ Features — What the User Sees
-
-<br/>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**📄 Tab 1 — Profile Upload**
-- Upload resume PDF → skills auto-detected
-- Add up to 5 certificates with skill tags
-- Certificate PDFs also parsed automatically
+### 📄 Tab 1 — Profile Upload
+- Upload resume PDF → PyPDF2 extracts text
+- Regex `\b` word-boundary scan against 80-skill vocabulary
+- Add up to **5 certificates** with names + skill tags
+- Certificate PDFs also parsed and merged
+- Animated **5-step progress bar** during processing
 
-**📝 Tab 2 — Skill Verification**
-- 20–25 AI-generated MCQ questions
-- Each question tagged to a specific skill
-- Real-time progress during AI generation
+### 📝 Tab 2 — Skill Verification
+- **20–25 Groq-generated MCQs** — one per detected skill
+- Graded to verified score `0–5` via `round(correct/total × 5)`
+- Saves to PostgreSQL for history tracking
 
-**🏆 Tab 3 — Analysis Report**
-- Answer review (✅ green / ❌ red)
-- KNN Top 3 job matches with confidence bars
-- Skill demand forecast (Rising / Stable)
-- Week-by-week learning path with free resources
-- One-click PDF career report download
+### 🏆 Tab 3 — Analysis Report
+- ✅ / ❌ answer review with correct-answer highlighting
+- **KNN Top-3** job matches with animated confidence bars
+- ✅ Shared skills · ❌ Gap skills per role
+- **Regression demand forecast** for all your skills
+- Week-by-week **learning path** with free resources
+- One-click **PDF career report** via ReportLab
 
 </td>
 <td width="50%" valign="top">
 
-**📊 Tab 4 — My Dashboard**
-- Full assessment history per email
-- Visual skill-level bar chart (Matplotlib)
-- Track improvement across multiple sessions
+### 📊 Tab 4 — My Dashboard
+- Load history by email → full assessment timeline
+- **Matplotlib dark-theme** horizontal bar chart
+- 🟢 Advanced (4–5) · 🟡 Intermediate (2–3) · 🔴 Beginner (0–1)
+- Track improvement across sessions
 
-**🤖 Tab 5 — AI Tools**
-- **Resume Scorer** — AI gives score 1–10 with section-by-section improvement suggestions and missing keywords
-- **JD Matcher** — Paste any job description → instant match score showing skills you have vs need
-- **Salary Insights** — Entry / Mid / Senior ranges for your top matched roles
+### 🤖 Tab 5 — AI Tools
+
+**📝 Resume Scorer**
+Upload PDF → Groq scores 1–10, section-by-section suggestions, missing keywords + quick wins
+
+**📋 JD Matcher**
+Paste any job description → match score 0–100% with skills you have vs need + Apply / Maybe / Not Yet verdict
+
+**💰 Salary Insights**
+Entry / Mid / Senior salary ranges for your matched roles · 20+ tech roles · USD 2024–2025 market data
 
 </td>
 </tr>
 </table>
 
-<br/>
-
 ---
-
-<br/>
 
 ## 🛠️ Tech Stack
 
-<br/>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 <div align="center">
 
 | Layer | Technology | Role |
 |-------|-----------|------|
-| **UI** | Gradio 4.x | 5-tab interactive web interface |
-| **ML** | scikit-learn | KNN + Linear Regression models |
-| **AI** | Groq — LLaMA 3.3 (70B) | Quiz generation + resume analysis |
-| **NLP** | PyPDF2 + Regex | Resume parsing + skill extraction |
-| **Database** | PostgreSQL + psycopg2 | User history, skill scores |
-| **PDF Report** | ReportLab | Career report generation |
-| **Charts** | Matplotlib | Skill progress visualization |
-| **Data** | Pandas + NumPy | Skill matrix + vector operations |
+| 🖥️ **UI** | Gradio 4.44.1 | 5-tab dark-theme web interface with custom CSS |
+| 🤖 **ML — Matching** | scikit-learn `NearestNeighbors` | KNN job matching · cosine · brute · k=10 |
+| 📈 **ML — Forecasting** | scikit-learn `LinearRegression` | 690 per-skill demand trend models |
+| 🧠 **LLM** | Groq LLaMA 3.3 (70B) Versatile | Quiz gen · resume scoring · JD matching |
+| 📄 **NLP** | PyPDF2 + Python `re` | PDF extraction + regex `\b` skill detection |
+| 🗄️ **Database** | PostgreSQL + psycopg2 | User history, skill scores, assessment records |
+| 📊 **Reports** | ReportLab | Downloadable PDF career report |
+| 📉 **Charts** | Matplotlib (Agg backend) | Dark-theme horizontal skill bar charts |
+| 📦 **Data** | Pandas + NumPy | Matrix operations + cosine vector math |
+| ☁️ **Deploy** | Render | `server_name=0.0.0.0` · `PORT` env · queue=5 |
 
 </div>
 
-<br/>
-
 ---
 
-<br/>
-
-## 📊 Dataset
-
-<br/>
+## 📊 Dataset Overview
 
 <div align="center">
 
-| File | Size | Used For |
-|------|------|---------|
-| `job_skill_matrix.csv` | 493 rows × 80 cols | **KNN training data** — binary matrix of job-skill requirements |
-| `skill_frequency.csv` | 690 rows | **Regression training data** — demand count per skill |
-| `IT_Job_Roles_Skills.csv` | 493 rows | Job descriptions + recommended certifications |
-| `top_skills.csv` | 80 rows | Master vocabulary for resume skill extraction |
+| File | Size | Role |
+|------|------|------|
+| `job_skill_matrix.csv` | 493 × 80 | **KNN training** — binary job-skill requirements |
+| `skill_frequency.csv` | 690 × 2 | **Regression base** — demand count per skill (max=82) |
+| `IT_Job_Roles_Skills.csv` | 493 rows | Job descriptions + certification recommendations |
+| `top_skills.csv` | 80 skills | Resume parsing master vocabulary |
 
 </div>
 
-<br/>
-
 ---
-
-<br/>
 
 ## ⚙️ Quick Setup
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+
 ```bash
-# 1. Clone & install
-git clone https://github.com/yourusername/skill-gap-recommendation-engine.git
-pip install -r requirements.txt
+# 1. Clone
+git clone https://github.com/deepanshusinghpal/skill-gap-navigator.git
+cd skill-gap-navigator
 
-# 2. Create .env
-GROQ_API_KEY=your_key_here        # free at console.groq.com
-DB_PASSWORD=your_postgres_password
+# 2. Install
+pip install gradio==4.44.1 scikit-learn pandas numpy matplotlib
+pip install groq pypdf2 psycopg2-binary reportlab python-dotenv
 
-# 3. Run
+# 3. Configure
+echo "GROQ_API_KEY=your_key_here" > .env        # free at console.groq.com
+echo "DB_PASSWORD=your_postgres_password" >> .env
+
+# 4. Run
 python src/gradio_app.py
-# → Open http://localhost:7860
+# → http://localhost:7860
 ```
 
-> ✅ ML models train and save automatically on first run (~3 seconds). Every restart loads from cache.
+> ✅ Both ML models train and cache automatically on first run (~3 seconds total). Every subsequent restart loads from `.pkl` in under a second.
 
-<br/>
+```bash
+# Optional: test resume parser standalone
+python src/resume_parser.py            # reads Sample_Resume.pdf
+
+# Optional: force-retrain ML models
+python src/ml_engine.py                # prints KNN + regression test predictions
+```
 
 ---
 
-<br/>
+<!-- FOOTER -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 <div align="center">
 
-**Built with Python · scikit-learn · Groq AI · Gradio · PostgreSQL**
+[![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,30:6366f1,60:3b82f6,85:10b981,100:059669&height=140&section=footer&animation=twinkling)](https://github.com/deepanshusinghpal/skill-gap-navigator)
 
-*Resume → Skills → Quiz → ML → Career Roadmap*
+**Built with ❤️ by Deepanshu**
+
+[![GitHub](https://img.shields.io/badge/GitHub-deepanshusinghpal-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/deepanshusinghpal)
+&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Deepanshu-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deepanshu-singh-pal/)
+&nbsp;
+[![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-Visit%20Site-10b981?style=for-the-badge&logoColor=white)](https://deepanshusinghpal.github.io/)
+
+<br/>
+
+*Resume → Parse → Verify → Match → Forecast → Roadmap*
+
+<img src="https://komarev.com/ghpvc/?username=deepanshusinghpal&label=Profile+Views&color=10b981&style=flat-square" alt="Profile Views"/>
 
 </div>
