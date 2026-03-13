@@ -11,8 +11,16 @@ DB_AVAILABLE = False
 
 def get_db_connection():
     try:
-        conn = sqlite3.connect(DB_PATH)
-        conn.row_factory = sqlite3.Row
+        # 1. First, try to get the Neon Connection String from Render's environment
+        db_url = os.getenv("DATABASE_URL")
+        
+        if db_url:
+            # If it exists (like on Render), connect to Neon!
+            conn = psycopg2.connect(db_url)
+        else:
+            # 2. If it doesn't exist, fall back to localhost for local testing
+            conn = psycopg2.connect(**DB_CONFIG)
+            
         return conn
     except Exception as e:
         print(f"Database connection failed: {e}")
