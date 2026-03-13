@@ -1,4 +1,3 @@
-<!-- ANIMATED HEADER -->
 <div align="center">
 
 [![Header](https://capsule-render.vercel.app/api?type=waving&color=0:059669,25:10b981,55:3b82f6,80:6366f1,100:8b5cf6&height=160&section=header&text=Skill%20Gap%20Navigator&fontSize=46&fontColor=ffffff&fontAlignY=38&desc=AI-Powered%20Career%20Intelligence%20Platform&descAlignY=62&descSize=16&animation=twinkling&stroke=ffffff&strokeWidth=1)](https://skill-gap-navigator.onrender.com)
@@ -7,42 +6,11 @@
 
 <br/><br/>
 
-<!-- LIVE DEMO BUTTON -->
 <a href="https://skill-gap-navigator.onrender.com" target="_blank">
-  <img src="https://img.shields.io/badge/%E2%9A%A1%20Launch%20Live%20Demo-skill--gap--navigator.onrender.com-10b981?style=for-the-badge&labelColor=0f172a" alt="Live Demo" height="40"/>
+  <img src="https://img.shields.io/badge/--%20View%20Live%20Demo%20--%20-10b981?style=for-the-badge&labelColor=0f172a&logo=render&logoColor=10b981" height="38" alt="Live Demo"/>
 </a>
 
-<br/>
-
-<!-- SLIM BADGE ROW -->
-<p>
-  <a href="https://www.linkedin.com/in/deepanshu-singh-pal/"><img src="https://img.shields.io/badge/LinkedIn-Deepanshu-0077B5?style=flat-square&logo=linkedin&logoColor=white"/></a>
-  &nbsp;
-  <a href="https://deepanshusinghpal.github.io/"><img src="https://img.shields.io/badge/🌐%20Portfolio-deepanshusinghpal.github.io-10b981?style=flat-square&logoColor=white"/></a>
-  &nbsp;
-  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/LLM-Groq%20LLaMA%203.3%2070B-00C853?style=flat-square"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/DB-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/Deploy-Render-46E3B7?style=flat-square&logo=render&logoColor=black"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/License-MIT-f59e0b?style=flat-square"/>
-</p>
-
-<!-- STATS ROW -->
-<p>
-  <img src="https://img.shields.io/badge/Job%20Roles-493-8b5cf6?style=flat-square"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/Skills%20Tracked-690-3b82f6?style=flat-square"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/ML%20Models-2-f59e0b?style=flat-square"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/Quiz%20Questions-20--25%20per%20session-10b981?style=flat-square"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/Regressions-690%20models-ef4444?style=flat-square"/>
-</p>
+<br/><br/>
 
 </div>
 
