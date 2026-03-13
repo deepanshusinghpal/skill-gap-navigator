@@ -7,9 +7,9 @@
 
 <br/><br/>
 
-<!-- LIVE DEMO BUTTON — HTML styled -->
+<!-- LIVE DEMO BUTTON -->
 <a href="https://skill-gap-navigator.onrender.com" target="_blank">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:059669,100:3b82f6&height=50&text=⚡%20Launch%20Live%20Demo%20→&fontColor=ffffff&fontSize=20&fontAlignY=65&animation=twinkling&desc=skill-gap-navigator.onrender.com&descSize=11&descAlignY=90&descColor=d1fae5" width="420" alt="Live Demo"/>
+  <img src="https://img.shields.io/badge/%E2%9A%A1%20Launch%20Live%20Demo-skill--gap--navigator.onrender.com-10b981?style=for-the-badge&labelColor=0f172a" alt="Live Demo" height="40"/>
 </a>
 
 <br/>
