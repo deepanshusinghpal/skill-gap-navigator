@@ -1019,7 +1019,7 @@ def build_salary_html(best_job, top3_jobs_state):
 # ═══════════════════════════════════════════════════════════════════
 # UI
 # ═══════════════════════════════════════════════════════════════════
-professional_theme = gr.themes.Ocean(
+professional_theme = gr.themes.Soft(
     primary_hue="emerald", neutral_hue="slate",
     font=[gr.themes.GoogleFont("Inter"), "system-ui", "sans-serif"]
 )
