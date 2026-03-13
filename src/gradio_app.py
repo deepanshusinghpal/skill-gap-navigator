@@ -1311,8 +1311,9 @@ app.queue(max_size=5)
 
 if __name__ == "__main__":
     app.launch(
-        theme=professional_theme,
-        css=custom_css,
-        show_error=True,
-        allowed_paths=[os.path.join(BASE_DIR, '..', 'data')]
+    theme=professional_theme,
+    css=custom_css,
+    show_error=True,
+    show_api=False,
+    allowed_paths=[os.path.join(BASE_DIR, '..', 'data')]
     )
