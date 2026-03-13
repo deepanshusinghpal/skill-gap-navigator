@@ -7,3 +7,8 @@ venv/
 .idea/
 .vscode/
 .DS_Store
+# Generated files
+data/career_report_*.pdf
+src/models/
+models/
+*.pkl
