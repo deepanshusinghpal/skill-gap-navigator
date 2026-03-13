@@ -518,10 +518,9 @@ def grade_and_match(user_id, quiz_state, email_for_report, *user_answers):
     # PDF report
     pdf_path = None
     try:
-        import datetime
+        import datetime, tempfile
         ts       = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-        pdf_path = os.path.join(BASE_DIR, '..', 'data', f"career_report_{ts}.pdf")
-        pdf_path = os.path.abspath(pdf_path)
+        pdf_path = os.path.join(tempfile.gettempdir(), f"career_report_{ts}.pdf")
         generate_pdf_report(
             email          = email_for_report or "user@example.com",
             best_job       = str(best_job),
