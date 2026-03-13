@@ -3,7 +3,7 @@
 
 [![Header](https://capsule-render.vercel.app/api?type=waving&color=0:059669,25:10b981,55:3b82f6,80:6366f1,100:8b5cf6&height=160&section=header&text=Skill%20Gap%20Navigator&fontSize=46&fontColor=ffffff&fontAlignY=38&desc=AI-Powered%20Career%20Intelligence%20Platform&descAlignY=62&descSize=16&animation=twinkling&stroke=ffffff&strokeWidth=1)](https://skill-gap-navigator.onrender.com)
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=14&duration=2000&pause=700&color=10B981&center=true&vCenter=true&width=680&lines=Resume+%E2%86%92+AI+Quiz+%E2%86%92+KNN+Match+%E2%86%92+Forecast+%E2%86%92+Roadmap;493+Real+Tech+Roles+x+80+Skills+Matrix;690+Skill+Demand+Forecasts+via+Linear+Regression;Powered+by+Groq+LLaMA+3.3+—+70B+Parameters;PostgreSQL+%7C+ReportLab+PDF+%7C+Gradio+4.44.1" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=14&duration=2000&pause=700&color=10B981&center=true&vCenter=true&width=680&lines=Resume+->+AI+Quiz+->+KNN+Match+->+Forecast+->+Roadmap;493+Real+Tech+Roles+x+80+Skills+Matrix;690+Skill+Demand+Forecasts+via+Linear+Regression;Powered+by+Groq+LLaMA+3.3+%7C+70B+Parameters;PostgreSQL+%7C+ReportLab+PDF+%7C+Gradio+4.44.1" alt="Typing SVG" />
 
 <br/><br/>
 
