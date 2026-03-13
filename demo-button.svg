@@ -1,0 +1,53 @@
+<svg width="320" height="72" viewBox="0 0 320 72" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="btnGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#059669"/>
+      <stop offset="50%" style="stop-color:#10b981"/>
+      <stop offset="100%" style="stop-color:#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Outer glow border -->
+  <rect x="1" y="1" width="318" height="70" rx="12" ry="12"
+        fill="none" stroke="url(#btnGrad)" stroke-width="2" opacity="0.9"/>
+
+  <!-- Background -->
+  <rect x="3" y="3" width="314" height="66" rx="10" ry="10" fill="url(#bgGrad)"/>
+
+  <!-- Top shimmer line -->
+  <rect x="3" y="3" width="314" height="2" rx="10" ry="10" fill="url(#btnGrad)" opacity="0.5"/>
+
+  <!-- Rocket icon circle -->
+  <circle cx="44" cy="36" r="20" fill="url(#btnGrad)" opacity="0.15"/>
+  <text x="44" y="42" text-anchor="middle" font-size="22">🚀</text>
+
+  <!-- Main label -->
+  <text x="175" y="30" text-anchor="middle"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-weight="700" font-size="15" letter-spacing="1.5"
+        fill="#ffffff" filter="url(#glow)">LIVE DEMO</text>
+
+  <!-- Sub label -->
+  <text x="175" y="50" text-anchor="middle"
+        font-family="Segoe UI Mono, monospace"
+        font-size="10" letter-spacing="0.5"
+        fill="#10b981">skill-gap-navigator.onrender.com  ↗</text>
+
+  <!-- Animated pulse border -->
+  <rect x="1" y="1" width="318" height="70" rx="12" ry="12"
+        fill="none" stroke="#10b981" stroke-width="1.5" opacity="0.4">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-width" values="1.5;2.5;1.5" dur="2s" repeatCount="indefinite"/>
+  </rect>
+</svg>

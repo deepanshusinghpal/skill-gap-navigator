@@ -7,7 +7,7 @@
 <br/><br/>
 
 <a href="https://skill-gap-navigator.onrender.com" target="_blank">
-  <img src="https://img.shields.io/badge/--%20View%20Live%20Demo%20--%20-10b981?style=for-the-badge&labelColor=0f172a&logo=render&logoColor=10b981" height="38" alt="Live Demo"/>
+  <img src="./demo-button.svg" width="320" alt="Live Demo"/>
 </a>
 
 <br/><br/>
